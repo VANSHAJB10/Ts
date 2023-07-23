@@ -45,3 +45,9 @@ function calculate(a: number, b: number, type: "sum" | "sub" | "mul" | "div"): n
 
 const ans = calculate(1,2,"sum");
 console.log(ans);
+
+// 4 //
+// TS vs JS
+
+JS - executions starts line by line 
+TS - Ts never runs the code ... only goal is to make sure all the types are right , fit to be converted to Js and then converts into Js code.
