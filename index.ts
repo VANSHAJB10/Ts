@@ -49,5 +49,7 @@ console.log(ans);
 // 4 //
 // TS vs JS
 
-JS - executions starts line by line 
-TS - Ts never runs the code ... only goal is to make sure all the types are right , fit to be converted to Js and then converts into Js code.
+JS compiler - executions starts line by line 
+            - Throws a run tume error
+TS compiler - Ts never runs the code ... only goal is to make sure all the types are right , fit to be converted to Js and then converts into Js code.
+            - If during compilation a type error occurs then it throws error (Compilation error).
