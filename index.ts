@@ -53,3 +53,5 @@ JS compiler - executions starts line by line
             - Throws a run tume error
 TS compiler - Ts never runs the code ... only goal is to make sure all the types are right , fit to be converted to Js and then converts into Js code.
             - If during compilation a type error occurs then it throws error (Compilation error).
+
+Js compiler will read the function -- but will not inside but will skip to func call and then will go inside the func body
