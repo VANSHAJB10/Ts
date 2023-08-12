@@ -61,3 +61,5 @@ npm install -g tsc
    // install locally typescript compiler(tsc is typescript compiler)
 ts --init
    //to open tsconfig.json file
+//tsconfig file
+1. target -- show final ECMAscript version
