@@ -55,3 +55,9 @@ TS compiler - Ts never runs the code ... only goal is to make sure all the types
             - If during compilation a type error occurs then it throws error (Compilation error).
 
 Js compiler will read the function -- but will not inside but will skip to func call and then will go inside the func body
+
+// 5 //
+npm install -g tsc 
+   // install locally typescript compiler(tsc is typescript compiler)
+ts --init
+   //to open tsconfig.json file
