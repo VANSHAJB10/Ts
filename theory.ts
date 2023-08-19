@@ -1,3 +1,16 @@
+/*  0  */
+/*
+TypeScript uses compile time type checking --> means it checks if the specified types match before running the code, not while running the code.
+*/
+
+// Arrays in Ts
+const names: string[] = [];
+names.push("Github@Vb10"); // no error
+// names.push(5); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+
+
+
+
 /*  1  */
 /*
 When creating a variable, there are two main ways TypeScript assigns a type:
