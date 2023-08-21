@@ -61,5 +61,18 @@ npm install -g tsc
    // install locally typescript compiler(tsc is typescript compiler)
 ts --init
    //to open tsconfig.json file
-//tsconfig file
-1. target -- show final ECMAscript version
+//tsconfig file  -- to configure Ts
+1. target -- show what should be the final ECMAscript version of Js 
+ECMAScript version upgrade do not mean Js has updated and the old one will not work
+ES2016-ES2020 latest ones.  Using the the most latest version is not a good practice as many browsers may not understand it
+
+esnet
+2. module -- checks if the Js file that u have written is a module
+how u want your Ts to be exported
+eg. commonjs, es16
+
+3.forceConsistentCasingInFileNames
+- set it to false if u want t let calculatesum to be exported instead of original file name - calculateSum
+
+set true to throw error if some variable do not have a type defined for it.
+4. strict-
