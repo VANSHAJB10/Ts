@@ -74,5 +74,8 @@ eg. commonjs, es16
 3.forceConsistentCasingInFileNames
 - set it to false if u want t let calculatesum to be exported instead of original file name - calculateSum
 
-set true to throw error if some variable do not have a type defined for it.
 4. strict-
+set true to throw error if some variable do not have a type defined for it.
+
+
+
